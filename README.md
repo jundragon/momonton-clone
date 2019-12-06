@@ -5,7 +5,7 @@ A clone of the productivity chrome app [Momentum](https://chrome.google.com/webs
 
 ## Features
 
-- [ ] Clock
+- [X] Clock
 - [ ] To Do List
 - [ ] Weather
 - [ ] Daily Quote
