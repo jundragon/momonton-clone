@@ -1,6 +1,10 @@
 const clockContainer = document.querySelector(".js-clock");
 const clockTitle = clockContainer.querySelector("h1");
 
+function fomatTime(time) {
+    return `${time < 10 ? `0${time}` : time}`;
+}
+
 function getTime() {
     const date = new Date();
 
@@ -9,9 +13,9 @@ function getTime() {
     const seconds = date.getSeconds();
 
     clockTitle.innerText = `${
-        hours < 10 ? `0${hours}`:hours}:${
-        minutes < 10 ? `0${minutes}`:minutes}:${
-        seconds < 10 ? `0${seconds}`:seconds
+        fomatTime(hours)}:${
+        fomatTime(minutes)}:${
+        fomatTime(seconds)
     }`;
 }
 
