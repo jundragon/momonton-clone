@@ -14,4 +14,4 @@ A clone of the productivity chrome app [Momentum](https://chrome.google.com/webs
 
 ## Try it out
 
-[https://jundragon.github.io/momonton-clone/](https://jundragon.github.io/momonton-clone/)
+[https://jundragon.github.io/momonton-clone/index.html](https://jundragon.github.io/momonton-clone/index.html)
