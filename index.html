@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Momonton</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
-    <div class="js-clock clock">
+  <body>
+    <section class="center">
+      <div class="js-clock clock">
         <h1 class="js-title">00:00</h1>
         <form class="js-form form">
-            <input type="text" placeholder="What's your name?" />            
+          <input type="text" placeholder="What's your name?" />
         </form>
-        <h4 class="js-greeting greetings">Hello OOO</h4>
-    </div>
+        <h4 class="js-greeting greetings">Hello</h4>
+      </div>
+
+      <div>
+        <form class="js-to-do to-do">
+          <input
+            class="js-add-to-do"
+            placeholder="Write a To Do here"
+            type="text"
+          />
+        </form>
+        <h2>Pending</h2>
+        <ul class="js-pending"></ul>
+        <h2>Finished</h2>
+        <ul class="js-finished"></ul>
+      </div>
+    </section>
+
     <script src="js/clock.js"></script>
     <script src="js/greeting.js"></script>
-</body>
+    <script src="js/toDo.js"></script>
+  </body>
 </html>
