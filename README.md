@@ -8,9 +8,9 @@ A clone of the productivity chrome app [Momentum](https://chrome.google.com/webs
 
 - [x] Clock
 - [x] To Do List
-- [ ] Username Persistance
-- [ ] Random Background Image
-- [ ] Weather with Geolocation
+- [x] Username Persistance
+- [x] Random Background Image
+- [x] Weather with Geolocation
 - [ ] Daily Quote
 - [ ] Daily Photo
 - [ ] Offline Support
